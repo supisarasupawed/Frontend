@@ -3,8 +3,8 @@ const axios = require("axios");
 const app = express();
 var bodyParser = require("body-parser");
 const path = require("path");
-//const base_url = "http://node57084-supisara-noderest.proen.app.ruk-com.cloud/";
-const base_url = "http://localhost:3000";
+const base_url = "http://node57084-supisara-noderest.proen.app.ruk-com.cloud";
+//const base_url = "http://localhost:3000";
 //"body-parser": "^1.20.2",
 
 app.set("views", path.join(__dirname, "public/views"));
